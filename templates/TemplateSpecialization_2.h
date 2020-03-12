@@ -23,7 +23,11 @@ private:
 };
 
 template<>
+<<<<<<< HEAD
 void Calculate<Options::OPT_1>::Calc()
+=======
+inline void Calculate<Options::OPT_1>::Calc()
+>>>>>>> Template specification C98 and modern style
 {
     std::cout << "Calc for OPT_1" << std::endl;
 }
